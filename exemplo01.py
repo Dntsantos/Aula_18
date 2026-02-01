@@ -50,7 +50,7 @@ except Exception as e:
     print(f'Erro ao obter informações... {e}')
 
 
-# Obtendo medidas estatísticas
+    # Obtendo medidas estatísticas
 try:
 
     q1 = np.quantile(array_roubo_veiculo, .25)
@@ -150,3 +150,4 @@ try:
 
 except Exception as e:
     print(f'Erro ao plotar o Gráfico {e}')
+
